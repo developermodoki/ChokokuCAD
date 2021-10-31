@@ -1,31 +1,23 @@
 <img src="./static/img/logo.svg" height="300">
 
 ```
-A breakthrough CAD software on your browser
+A breakthrough CAD software on Electron
 ```
 
 Chokoku CAD can create complex shapes with few and simple controls.
 
-https://ittakun.sakura.ne.jp/chokokucad/
+![Screenshot from 2021-10-31 10-05-09](https://user-images.githubusercontent.com/61893884/139562617-db411771-dd82-44f4-af83-a8b3b7a44b2a.png)
 
-<img src="./static/img/sample1.png" height="300"> <img src="./static/img/video.gif" height="300">
 
-## How to use Chokoku tool
-### Make path
-Click the screen to create the path.
-Click start point to close.
+## How to Start up Chokoku tool
 
-### Editing path
-Select the edit icon<img src="./static/img/chokoku-setting-edit.svg" width="30"> and move the segments.
-
-### Shave model
-Select the path add icon<img src="./static/img/chokoku-setting-add.svg" width="30"> and click OK button or press Enter key.
-
-### Lock
-Maybe you want to create a shape with holes like a cup.
-To do so, select the lock icon<img src="./static/img/chokoku-setting-lock.svg" width="30">, and the Chokoku tool will not shave off the area selected by the path.
-
+```
+cd ChokokuCAD-linux-x64
+./ChokokuCAD
+```
+Click here for how to use: https://github.com/itta611/ChokokuCAD#readme
 ## Credits
-- THREE.js (https://github.com/mrdoob/three.js)
-- paper.js (https://github.com/paperjs/paper.js)
-- ThreeBSP (https://github.com/sshirokov/ThreeBSP)
+[Electron](https://github.com/electron/electron)  
+[Electron-Packager](https://github.com/electron/electron-packager)
+
+Click here for others: https://github.com/itta611/ChokokuCAD#credits
