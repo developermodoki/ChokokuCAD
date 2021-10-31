@@ -1,6 +1,7 @@
 <img src="./static/img/logo.svg" height="300">
 
 ![Actions](https://github.com/developermodoki/ChokokuCAD-Electron/actions/workflows/node.js.yml/badge.svg)
+![Version](https://img.shields.io/github/v/release/developermodoki/ChokokuCAD-Electron?color=brightgreen&style=flat-square)
 ```
 A breakthrough CAD software on Electron
 ```
