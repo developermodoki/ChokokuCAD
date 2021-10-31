@@ -1,0 +1,29 @@
+{
+  "name": "chokokucad",
+  "version": "2.2.0",
+  "description": "A breakthrough CAD application on your browser ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build-linux":"npx electron-packager . ChokokuCAD --platform=linux --arch=x64 --overwrite --icon=/favicon.ico"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developermodoki/ChokokuCAD.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/developermodoki/ChokokuCAD/issues"
+  },
+  "homepage": "https://github.com/developermodoki/ChokokuCAD#readme",
+  "dependencies": {
+    "electron": "^15.3.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.4.0"
+  }
+}
