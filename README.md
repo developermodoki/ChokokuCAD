@@ -17,6 +17,11 @@ Chokoku CAD can create complex shapes with few and simple controls.
 cd ChokokuCAD-linux-x64
 ./ChokokuCAD
 ```
+### Other Platforms
+```
+npm install
+npm start
+```
 Click here for how to use: https://github.com/itta611/ChokokuCAD#readme
 ## Credits
 [Electron](https://github.com/electron/electron)  
